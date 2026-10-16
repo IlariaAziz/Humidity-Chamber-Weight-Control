@@ -1,0 +1,12 @@
+[project]
+name = "humidity_chamber"
+version = "1.0.0"
+description = "Acquisition software for a gravimetric humidity chamber (STM32 Nucleo, DHT11 sensors, HX711 load cell)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.0",
+    "pandas>=2.2.3",
+    "pyserial>=3.5",
+]
